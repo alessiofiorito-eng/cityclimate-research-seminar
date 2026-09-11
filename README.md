@@ -156,10 +156,19 @@ refer to:
 - **`ERROR: Could not open requirements file`** — make sure you're inside the
   `cityclimate/` directory before running `pip install -r requirements.txt`.
 
+## License and reuse
+
+Copyright © 2026 Alessio Fiorito, Bakir Ahmetbegovic, and Segmen Bagcivan.  
+All rights reserved.
+
+This repository is made publicly available for academic transparency, citation, and review in connection with the paper *“Integration of a Conversational Large Language Model into a Portable Physical City Model to Support Participatory Climate-Related Urban Planning”*.
+
+No permission is granted to copy, modify, redistribute, or use this software beyond what is permitted by applicable law. For permission requests, reuse, collaboration, or licensing inquiries, please contact the authors listed below.
+
 ## Team
 
 Research Seminar, Summer Term 2026, TH Köln
 
-- Alessio Fiorito
-- Bakir Ahmetbegovic
-- Segmen Bagcivan
+- Alessio Fiorito — [alessio_antonino.fiorito@smail.th-koeln.de](mailto:alessio_antonino.fiorito@smail.th-koeln.de)
+- Bakir Ahmetbegovic — [bakir.ahmetbegovic@smail.th-koeln.de](mailto:bakir.ahmetbegovic@smail.th-koeln.de)
+- Segmen Bagcivan — [segmen.bagcivan@smail.th-koeln.de](mailto:segmen.bagcivan@smail.th-koeln.de)
