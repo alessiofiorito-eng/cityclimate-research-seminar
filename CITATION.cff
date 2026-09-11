@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "CityClimate"
+authors:
+  - family-names: Fiorito
+    given-names: Alessio
+    affiliation: "TH Köln – University of Applied Sciences"
+
+  - family-names: "Ahmetbegovic"
+    given-names: "Bakir"
+    affiliation: "TH Köln – University of Applied Sciences"
+
+  - family-names: "Bagcivan"
+    given-names: "Segmen"
+    affiliation: "TH Köln – University of Applied Sciences"
+
+version: 1.0.0
+date-released: "2026-09-11"
+repository-code: "https://github.com/alessiofiorito-eng/cityclimate-research-seminar"

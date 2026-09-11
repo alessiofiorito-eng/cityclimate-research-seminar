@@ -1,0 +1,26 @@
+{
+  "title": "CityClimate Board",
+  "description": "CityClimate Board is a tangible interface for real-time Local Climate Zone (LCZ) analysis. This repository accompanies the paper \"Integration of a Conversational Large Language Model into a Portable Physical City Model to Support Participatory Climate-Related Urban Planning\".",
+  "creators": [
+    {
+      "name": "Fiorito, Alessio",
+      "affiliation": "TH Köln – University of Applied Sciences"
+    },
+    {
+      "name": "Ahmetbegovic, Bakir",
+      "affiliation": "TH Köln – University of Applied Sciences"
+    },
+    {
+      "name": "Bagcivan, Segmen",
+      "affiliation": "TH Köln – University of Applied Sciences"
+    }
+  ],
+  "keywords": [
+    "urban climate",
+    "Local Climate Zones",
+    "participatory planning",
+    "large language models",
+    "tangible user interface",
+    "CityClimate Board"
+  ],
+}
