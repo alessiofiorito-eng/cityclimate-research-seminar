@@ -12,8 +12,8 @@ Colored building blocks on a physical board are detected via camera, mapped to L
 ## Installation
 
 ```bash
-git clone https://github.com/alessiofiorito-eng/Forschungsseminar.git
-cd Forschungsseminar
+git clone https://github.com/alessiofiorito-eng/cityclimate-research-seminar.git
+cd cityclimate-research-seminar
 ```
 
 Create and activate a virtual environment:
