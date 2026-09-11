@@ -1,5 +1,7 @@
 # CityClimate Board
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22700743.svg)](https://doi.org/10.5281/zenodo.22700743)
+
 An interactive tangible interface for real-time analysis of urban climate scenarios.
 Colored building blocks on a physical board are detected via camera, mapped to Local Climate Zone (LCZ) classes, and evaluated thermally.
 
