@@ -4,7 +4,7 @@ Research Seminar, Summer Term 2026 · TH Köln
 Team: Alessio Fiorito, Bakir Ahmetbegovic, Segmen Bagcivan
 
 This document describes the current architecture of the CityClimate Board
-prototype (Phase 1: a runnable prototype with demo mode, optional camera
+prototype (a runnable prototype with demo mode, optional camera
 integration, and optional Ollama LLM integration).
 
 ---
@@ -284,24 +284,3 @@ graph TD
   bounds).
 
 ---
-
-## 9. Known Limitations (Phase 1) / Phase 2 Outlook
-
-Deliberately **not yet** included, per the original Phase 1 scope:
-
-- **Real RealSense camera with ChArUco auto-calibration** — currently only
-  manual 4-point calibration is supported; `RealSenseCamera` already provides
-  the RGB stream, but auto-calibration is still missing.
-- **Isometric 3D view** of the grid — currently only a 2D top-down view
-  (`GridView`).
-- **Session logging** (persistent recording of moves/metrics across a
-  session) — `SessionState.kpi_history` already exists as a data structure,
-  but is not currently persisted to disk.
-- **Additional heatmap layers** (e.g. imperviousness, sky view factor) —
-  currently only temperature is supported.
-
----
-
-*This document reflects the code state as of commit `638af91` (comment/
-docstring overhaul, branch `vor-ssh-aenderungen`). Please update it
-accordingly after any significant structural changes.*
