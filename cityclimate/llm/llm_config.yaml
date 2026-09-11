@@ -1,0 +1,33 @@
+# CityClimate Board – LLM Configuration
+# Ollama läuft auf dem Spark-Server (nur localhost).
+# Zugriff vom Windows-PC via SSH-Tunnel:
+#   ssh -N -L 11434:localhost:11434 forschungsseminar@100.106.237.123
+# Danach ist Ollama lokal unter http://localhost:11434 erreichbar.
+
+ollama_host: "http://localhost:11434"
+
+# WICHTIG: Muss mit dem auf dem Spark installierten Modell übereinstimmen.
+# Modell einmalig bauen: ollama create climate-analyst -f cityclimate/llm/modelfile
+model: "climate-analyst"
+streaming: true
+timeout_seconds: 60
+
+# Niedrige Temperatur = deterministischer, hält sich besser an Format-Regeln.
+# Muss mit PARAMETER temperature im Modelfile übereinstimmen.
+max_tokens: 300
+temperature: 0.15
+
+fallback_message: "KI-Assistent nicht verfügbar. Bitte SSH-Tunnel prüfen (ssh -N -L 11434:localhost:11434 forschungsseminar@100.106.237.123)."
+language: "de"
+
+# --- Sokratische Hint-Logik ---
+hint_escalation:
+  moves_without_progress_threshold: 3   # Züge ohne HE-Verbesserung bis Hint-Level +1
+  progress_delta_he: 0.05               # Mindestverbesserung HE die als "Fortschritt" gilt
+  max_hint_level: 3
+
+# --- Fortschritts-Gewichtung für Prozentwert ---
+progress_weights:
+  heat_exposure: 0.50
+  population:    0.30
+  green_fraction: 0.20

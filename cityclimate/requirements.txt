@@ -1,0 +1,23 @@
+# CityClimate Board — Python dependencies
+# Install with: pip install -r requirements.txt
+
+# Computer Vision
+pyrealsense2   # Optional: nur nötig für --realsense (Intel RealSense Hardware/SDK).
+               # Ohne installierte Hardware/Treiber startet main.py trotzdem im Fallback.
+opencv-python
+numpy
+
+# GUI
+PyQt6
+matplotlib
+pillow
+
+# LLM / HTTP
+httpx[asyncio]
+
+# Config
+pyyaml
+
+# Scientific
+scipy
+scikit-learn
